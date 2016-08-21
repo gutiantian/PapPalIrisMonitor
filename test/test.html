@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="modal.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="fashioncharts.js"></script>
+  <script src="fashioncharts2.js"></script>
+  <script src="gauge.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+</head>
+<body>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#home">all</a></li>
+    <li><a href="#menu1">ui</a></li>
+    <li><a href="#menu2">server</a></li>
+    <li><a href="#menu3">proxy</a></li>
+  </ul>
+    <div id="mainDashboard" style="width: 1200px;"></div>
+                <div id="myModal" class="modal">
+            <div class="modal-content" style="width: 80%;">
+              <div class="modal-header" style="font-family: Arial, Helvetica, sans-serif; width:100%;display:inline-block;">
+                <span class="close">×</span>
+                <h2 class="title"></h2>
+              </div>
+              <div class="modal-body">
+              </div>
+              <div class="modal-table" style="width: 80%;"></div>
+              <div class="modal-footer">
+                <h1 class="bottomTitle"></h1>
+              </div>
+            </div>
+          </div>
+      <script src="modal.js"></script>
+        </div>
+</div>
+<script src="dashBoard.js"></script>
+
+</body>
+</html>
